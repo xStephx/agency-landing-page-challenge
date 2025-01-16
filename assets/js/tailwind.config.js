@@ -21,6 +21,10 @@ tailwind.config = {
             Barlow: ['Barlow', 'serif'], // 600
             Fraunces: ['Fraunces', 'serif'] // 700, 900
         },
+        backgroundImage: {
+            'hero-desktop': "url('./assets/images/desktop/image-header.jpg')",
+            'hero-mobile': "url('./assets/images/mobile/image-header.jpg')",
+          },
     },
     plugins: [],
 }

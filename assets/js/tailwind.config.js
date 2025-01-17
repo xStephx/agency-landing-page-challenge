@@ -24,6 +24,8 @@ tailwind.config = {
         backgroundImage: {
             'hero-desktop': "url('./assets/images/desktop/image-header.jpg')",
             'hero-mobile': "url('./assets/images/mobile/image-header.jpg')",
+            'section-1-desktop': "url('./assets/images/desktop/image-transform.jpg')",
+            'section-1-mobile': "url('./assets/images/mobile/image-transform.jpg')",
           },
     },
     plugins: [],

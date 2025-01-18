@@ -26,6 +26,8 @@ tailwind.config = {
             'hero-mobile': "url('./assets/images/mobile/image-header.jpg')",
             'section-1-desktop': "url('./assets/images/desktop/image-transform.jpg')",
             'section-1-mobile': "url('./assets/images/mobile/image-transform.jpg')",
+            'section-2-desktop': "url('./assets/images/desktop/image-stand-out.jpg')",
+            'section-2-mobile': "url('./assets/images/mobile/image-stand-out.jpg')",
           },
     },
     plugins: [],

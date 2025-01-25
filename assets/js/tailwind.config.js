@@ -7,7 +7,7 @@ tailwind.config = {
                 Yellow: 'hsl(51, 100%, 49%)',
                 DarkDesaturatedCyanGraphicDesignText: 'hsl(167, 40%, 24%)',
                 DarkBluePhotographyText: 'hsl(198, 62%, 26%)',
-                DarkModerateCyanFooter: 'hsl(168, 34%, 41%)',
+                DarkModerateCyanFooter: 'rgb(144, 212, 197)',
 
                 // Neutral Colors
                 VeryDarkDesaturatedBlue: 'hsl(212, 27%, 19%)',

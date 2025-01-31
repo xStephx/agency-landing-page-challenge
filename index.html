@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="scroll-smooth">
 
 <head>
   <!-- Meta informations -->
@@ -28,7 +28,7 @@
         <img id="hamburger-icon" src="assets/images/icon-hamburger.svg" alt="Hamburger Icon" class="md:hidden block">
       </div>
       <div id="triangle-menu" class="md:hidden hidden absolute top-[90px] right-[20px] w-0 h-0 border-b-[40px] border-l-[30px] border-transparent border-b-White"></div>
-      <div id="hamburger-menu" class="md:flex hidden relative md:top-0 top-[70px] flex justify-center items-center md:py-[0px] py-[40px] md:bg-transparent bg-White">
+      <div id="hamburger-menu" class="md:flex hidden relative md:top-0 top-[70px] flex justify-center items-center md:py-[0px] py-[40px] md:bg-transparent bg-White z-10">
         <ul class=" md:flex md:flex-row flex-col items-center justify-center lg:gap-16 md:gap-10 text-center md:text-White text-VeryDarkGrayishBlue font-semibold text-lg">
           <li class="cursor-pointer">About</li>
           <li class="cursor-pointer md:my-[0px] my-[30px]">Services</li>
@@ -37,11 +37,13 @@
         </ul>
       </div>
     </nav>
-    <h1 class="uppercase font-Fraunces text-White text-center md:text-5xl text-4xl font-black pt-[130px] px-4">We are creatives</h1>
-    <img src="assets/images/icon-arrow-down.svg" alt="Arrow Down Icon" class="flex mx-auto pt-24">
+    <h1 class="uppercase font-Fraunces text-White text-center md:text-6xl text-4xl font-black pt-[130px] px-4 absolute top-24 w-full md:static tracking-widest">We are creatives</h1>
+    <a href="#transformYourBrandSection">
+      <img src="assets/images/icon-arrow-down.svg" alt="Arrow Down Icon" class="absolute top-[360px] left-1/2 -translate-x-1/2">
+    </a>
   </section>
   <!-- Transform your brand Section-->
-  <section class="flex md:flex-row flex-col w-full">
+  <section id="transformYourBrandSection" class="flex md:flex-row flex-col w-full">
     <div class="flex flex-col justify-center md:items-start items-center md:text-start text-center lg:px-[100px] md:p-[50px] p-[30px] md:w-1/2 w-full md:order-1 order-2">
       <h2 class="font-Fraunces font-bold text-VeryDarkDesaturatedBlue md:text-4xl text-2xl">
         Transform your <span class="block">brand</span>
